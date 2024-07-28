@@ -5,9 +5,9 @@ import Category from '../../../components/Category'
 function Home() {
   return (
     <div>
-      <div className="relative px-6 isolate lg:px-8">
-        <div className="max-w-2xl py-32 mx-auto sm:py-48">
-          <div className="text-center">
+      <div className="relative flex justify-center isolate">
+        <div className="max-w-2xl py-32 sm:py-48">
+          <div className="text-center ">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Lorem ipsum dolor sit amet, consectetur .</h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           </div>

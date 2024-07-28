@@ -1,6 +1,8 @@
 import React from 'react'
 
-function Category() {
+import { Link } from 'react-router-dom'
+
+function Category({route = '/products'}) {
   return (
     <div className="m-5 shadow-xl card bg-base-100 image-full w-96">
         <figure>
@@ -12,7 +14,9 @@ function Category() {
             <h2 className="card-title">Shoes!</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="justify-end card-actions">
+              <Link to={route}>
                 <button className="btn btn-primary">See More</button>
+              </Link>
             </div>
         </div>
     </div>
