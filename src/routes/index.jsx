@@ -9,7 +9,9 @@ import {
     AllProducts,
     ProductCategories,
 
-    Home
+    Home,
+
+    NotFound
 } from '../pages/_index'
 
 const publicRoutes = createBrowserRouter([
@@ -44,7 +46,12 @@ const publicRoutes = createBrowserRouter([
                 element: <Contact/>
             },
         ]
-    }
+    },
+    {
+        path:"*",
+        loader: () => ({ message: "Route not found!" }),
+        Component: NotFound,
+    },
 ])
 
 const Routes = () =>{

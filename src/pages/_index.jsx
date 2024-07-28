@@ -8,6 +8,8 @@ import Home from './public/home/home'
 import Contact from './public/contact/contact'
 import About from './public/about/about'
 
+import NotFound from './not-found'
+
 
 export{
     Main,
@@ -19,4 +21,6 @@ export{
     Home,
     Contact,
     About,
+
+    NotFound
 }
