@@ -39,11 +39,11 @@ function Home() {
         <p class="mt-6 text-lg leading-8 text-gray-600">Discover Our Exclusive Collections and Expert Services</p>
       </div>
       <div class="mx-auto max-w-2xl mt-3 lg:max-w-4xl justify-center flex flex-wrap">
-        <Category sub='Top-quality welding products for strong, precise fabrication and repairs' title='Welding' image={test}/>
-        <Category sub='Premium painting supplies with a vibrant color palette for a flawless finish.' title='Painting' image={test3}/>
-        <Category sub='Durable and precise tools for tackling any project with ease.' title='Tools' image={test2}/>
-        <Category sub='Quality woodwork products for crafting elegant furniture and unique decor.' title='Wood Works' image={test4}/>
-        <Category sub='Reliable electrical products for safe and efficient installations and repairs.' title='Electrical' image={test5}/>
+        <Category route='products/all' sub='Top-quality welding products for strong, precise fabrication and repairs' title='Welding' image={test}/>
+        <Category route='products/all' sub='Premium painting supplies with a vibrant color palette for a flawless finish.' title='Painting' image={test3}/>
+        <Category route='products/all' sub='Durable and precise tools for tackling any project with ease.' title='Tools' image={test2}/>
+        <Category route='products/all' sub='Quality woodwork products for crafting elegant furniture and unique decor.' title='Wood Works' image={test4}/>
+        <Category route='products/all' sub='Reliable electrical products for safe and efficient installations and repairs.' title='Electrical' image={test5}/>
       </div>
     </div>
   )
