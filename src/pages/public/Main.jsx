@@ -5,6 +5,7 @@ import NavigationBar from '../../components/NavigationBar'
 import DrawerItemComp from '../../components/DrawerItemComp'
 import Telephone from '../../assets/icons/telephone'
 import Footer from '../../components/Footer'
+import Messenger from '../../components/Messenger'
 
 function Main() {
   return (
@@ -65,6 +66,7 @@ function Main() {
         </div>
       </div>
       <Footer/>
+      <Messenger/>
     </div>
   )
 }

@@ -10,11 +10,10 @@ import test3 from '../../../../src/assets/img/sven-brandsma-kerFMg52cUA-unsplash
 import test4 from '../../../../src/assets/img/greyson-joralemon-A1g0oeX29ec-unsplash.jpg'
 import test5 from '../../../../src/assets/img/jakub-zerdzicki-HXpG1S-INN8-unsplash.jpg'
 
-
-
 import HomeDisplayImage from '../../../../src/assets/img/julie-molliver-BYTMWQfQU4Y-unsplash.jpg'
 
 function Home() {
+
   return (
     <div>
       <div 
